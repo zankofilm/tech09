@@ -1,0 +1,11 @@
+{
+  "version": "A06-native-gradebook",
+  "static_checks_passed": 16,
+  "gradebook_rules_tests_passed": 17,
+  "apk_build": "NOT_RUN",
+  "device_tests": "NOT_RUN",
+  "real_server_tests": "NOT_RUN",
+  "source_server_endpoint_reviewed": true,
+  "server_changed": false,
+  "mother_source_changed": false
+}

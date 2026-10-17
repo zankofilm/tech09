@@ -1,0 +1,30 @@
+{
+  "version": "A06-native-gradebook-test",
+  "based_on": "A05-FA01",
+  "install_changed_files": [
+    "app/src/main/java/ir/scooljavanrood/madreseyar/teacher/MainActivity.java",
+    "app/src/main/java/ir/scooljavanrood/madreseyar/teacher/GradebookRules.java",
+    "app/build.gradle",
+    ".github/workflows/build-debug-apk.yml",
+    "tools/TestGradebookRules.java",
+    "tools/verify_a06.py"
+  ],
+  "rollback_filenames": [
+    ".github/workflows/build-debug-apk.yml",
+    "app/build.gradle",
+    "app/src/main/java/ir/scooljavanrood/madreseyar/teacher/MainActivity.java"
+  ],
+  "deleted_files_on_rollback": [
+    "app/src/main/java/ir/scooljavanrood/madreseyar/teacher/GradebookRules.java",
+    "tools/TestGradebookRules.java",
+    "tools/verify_a06.py"
+  ],
+  "sha256": {
+    "app/src/main/java/ir/scooljavanrood/madreseyar/teacher/MainActivity.java": "48e81e244dcef347e4dd86b035831968a6261a2231f27611e2f1258f1b02e639",
+    "app/src/main/java/ir/scooljavanrood/madreseyar/teacher/GradebookRules.java": "46998ab2e9d323accfa689e5ef20d8acfcd35e9f9fa6527e85a89a4f3707e618",
+    "app/build.gradle": "8bfc1fef8248ac8dfe05677ad849a44b337433d58d80551e3cf4cbb8796696cc",
+    ".github/workflows/build-debug-apk.yml": "d797db6079c509695f11f2e3881520c769eb9d46a94b8be1f34f8595e90d0752",
+    "tools/TestGradebookRules.java": "2a8a150e701780556a06162354d21b29e7bf946b1e96ddc67c4153819c3dd481",
+    "tools/verify_a06.py": "2cdf9e544899f9fe6a37f57ee2174c35445d9bbd574d216d41bf6b96358af13b"
+  }
+}

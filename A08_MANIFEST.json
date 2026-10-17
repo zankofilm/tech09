@@ -1,0 +1,29 @@
+{
+  "version": "A08 Native Homework (test)",
+  "base": "A07 Native Exam Detail",
+  "created": "2026-10-17",
+  "server_changes": false,
+  "database_changes": false,
+  "new_files": [
+    "README_A08_FA.md",
+    "README.md",
+    "tools/TestHomeworkRules.java",
+    "tools/verify_a08.py",
+    "app/src/main/java/ir/scooljavanrood/madreseyar/teacher/HomeworkRules.java"
+  ],
+  "changed_files": [
+    "README_FA.md",
+    "app/build.gradle",
+    ".github/workflows/build-debug-apk.yml",
+    "app/src/main/java/ir/scooljavanrood/madreseyar/teacher/SchoolApi.java",
+    "app/src/main/java/ir/scooljavanrood/madreseyar/teacher/MainActivity.java"
+  ],
+  "quality_checks": {
+    "homework_rules": 28,
+    "gradebook_rules": 17,
+    "exam_detail": 16,
+    "static_contracts": 19
+  },
+  "apk_built": false,
+  "github_action": "Build Native Teacher Android APK"
+}

@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "native_only_no_embedded_browser": true,
+    "api_staff_login_exists": true,
+    "api_staff_me_exists": true,
+    "api_teacher_dashboard_exists": true,
+    "api_teacher_workspace_exists": true,
+    "api_attendance_post_exists": true,
+    "api_calls_used": true,
+    "biometric_vault_keystore": true,
+    "no_password_in_prefs": true,
+    "five_tabs": true,
+    "no_server_data": true,
+    "valid_manifest": true,
+    "workflow_sdk_v4": true,
+    "preview_images": true
+  },
+  "passed": 14,
+  "total": 14,
+  "note": "Static code and existing source contract only. GitHub build and phone test still required."
+}

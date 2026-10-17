@@ -1,0 +1,21 @@
+plugins { id 'com.android.application' }
+android {
+  namespace 'ir.scooljavanrood.madreseyar.teacher'
+  compileSdk 35
+  defaultConfig {
+    applicationId 'ir.scooljavanrood.madreseyar.teacher'
+    minSdk 26
+    targetSdk 35
+    versionCode 11
+    versionName '0.8.0-native-fa-homework-test'
+  }
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_17
+    targetCompatibility JavaVersion.VERSION_17
+  }
+}
+dependencies {
+  implementation platform('org.jetbrains.kotlin:kotlin-bom:1.8.22')
+  implementation 'androidx.core:core:1.15.0'
+  implementation 'androidx.biometric:biometric:1.1.0'
+}

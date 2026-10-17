@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مدرسه‌یار معلم</string>
+    <string name="app_name_short">مدرسه‌یار</string>
+    <string name="teacher_home">خانه</string>
+    <string name="teacher_classes">کلاس‌ها</string>
+    <string name="teacher_attendance">حضور و غیاب</string>
+    <string name="teacher_grades">نمرات</string>
+    <string name="teacher_more">بیشتر</string>
+    <string name="login_title">ورود به فضای اختصاصی معلم</string>
+    <string name="login_action">ورود به اپلیکیشن</string>
+    <string name="login_biometric">ورود با اثر انگشت</string>
+    <string name="login_password">رمز عبور</string>
+    <string name="network_error">در ارتباط با سرور مدرسه خطایی رخ داد.</string>
+</resources>
